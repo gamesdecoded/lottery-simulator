@@ -1,0 +1,126 @@
+{
+ "meta": {
+  "title_uses_total_tickets": 100000000,
+  "draws": 20000000,
+  "tickets_per_strategy_per_draw": 1,
+  "crowd_tickets_per_draw": 8000000,
+  "ticket_price": 3.0,
+  "jackpot_seed": 5000000.0,
+  "jackpot_per_ticket": 0.5,
+  "prizes": {
+   "match5": 2500.0,
+   "match4": 100.0,
+   "match3": 10.0
+  },
+  "seed": 20261023
+ },
+ "crowd_jackpot": {
+  "draws": 300000,
+  "wins": 98206,
+  "win_rate": 0.32735333333333333,
+  "mean_jackpot_at_win": 13219177.081670163,
+  "se_jackpot_at_win": 31789.297366138628,
+  "max_jackpot": 125000075.0
+ },
+ "strategies": {
+  "quickpick": {
+   "tickets": 20000000,
+   "cost": 60000000.0,
+   "match3": 352851,
+   "match4": 19202,
+   "match5": 390,
+   "jackpot_hits": 0,
+   "jackpot_won": 0.0,
+   "expected_share": 0.8115931611971888,
+   "expected_share_se": 0.0001186968677452367,
+   "roi_direct": -0.8929381666666667,
+   "roi_precision": -0.6377647389873617,
+   "roi_precision_ci95": [
+    -0.6389723584497976,
+    -0.6365571195249259
+   ]
+  },
+  "birthday": {
+   "tickets": 20000000,
+   "cost": 60000000.0,
+   "match3": 353362,
+   "match4": 19544,
+   "match5": 385,
+   "jackpot_hits": 2,
+   "jackpot_won": 3666667.916666667,
+   "expected_share": 0.4892492802449066,
+   "expected_share_se": 0.00018507734005305013,
+   "roi_direct": -0.8313802013888888,
+   "roi_precision": -0.7393374151796359,
+   "roi_precision_ci95": [
+    -0.7400729922995434,
+    -0.7386018380597285
+   ]
+  },
+  "samenumbers": {
+   "tickets": 20000000,
+   "cost": 60000000.0,
+   "match3": 352983,
+   "match4": 19418,
+   "match5": 365,
+   "jackpot_hits": 1,
+   "jackpot_won": 1285714.642857143,
+   "expected_share": 0.20867181326030299,
+   "expected_share_se": 6.3675657488593765e-18,
+   "roi_direct": -0.8721692559523809,
+   "roi_precision": -0.8277492197303618,
+   "roi_precision_ci95": [
+    -0.8280591427498099,
+    -0.8274392967109137
+   ]
+  },
+  "hotnumbers": {
+   "tickets": 20000000,
+   "cost": 60000000.0,
+   "match3": 354102,
+   "match4": 19362,
+   "match5": 329,
+   "jackpot_hits": 1,
+   "jackpot_won": 2500000.0,
+   "expected_share": 0.751180686803385,
+   "expected_share_se": 0.0007943991076413535,
+   "roi_direct": -0.853338,
+   "roi_precision": -0.6568011068608512,
+   "roi_precision_ci95": [
+    -0.6580198881774232,
+    -0.6555823255442793
+   ]
+  },
+  "unpopular": {
+   "tickets": 20000000,
+   "cost": 60000000.0,
+   "match3": 354457,
+   "match4": 19298,
+   "match5": 388,
+   "jackpot_hits": 3,
+   "jackpot_won": 55000025.0,
+   "expected_share": 0.9061523048135844,
+   "expected_share_se": 5.094052599087501e-17,
+   "roi_direct": 0.02407325,
+   "roi_precision": -0.6079685311387981,
+   "roi_precision_ci95": [
+    -0.6093143643589147,
+    -0.6066226979186815
+   ]
+  }
+ },
+ "ranking": [
+  "unpopular",
+  "quickpick",
+  "hotnumbers",
+  "birthday",
+  "samenumbers"
+ ],
+ "ci_overlap_adjacent": {
+  "unpopular_vs_quickpick": false,
+  "quickpick_vs_hotnumbers": false,
+  "hotnumbers_vs_birthday": false,
+  "birthday_vs_samenumbers": false
+ },
+ "validation": "validate.py: 9 gates passed before production"
+}
