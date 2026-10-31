@@ -113,7 +113,7 @@ def main():
 
     total_tickets = int(tickets.sum())
     res = {
-        "meta": {
+        "info": {
             "title_uses_total_tickets": total_tickets,
             "draws": N_DRAWS_DIRECT,
             "tickets_per_strategy_per_draw": 1,

@@ -1,5 +1,5 @@
 {
- "meta": {
+ "info": {
   "title_uses_total_tickets": 100000000,
   "draws": 20000000,
   "tickets_per_strategy_per_draw": 1,
